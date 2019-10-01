@@ -116,10 +116,10 @@ def main():
 
 
 if __name__ == "__main__":
-    #print("Questions 1 and 2:")
-    #main()
+    print("Questions 1 and 2:")
+    main()
 
-    #print("Question 3:")
-    #import find_indeces_pattern_on_text
+    print("Question 3:")
+    import find_indeces_pattern_on_text
 
     import MealyMachine
