@@ -33,7 +33,7 @@ class Mealy(object):
 
 
 states = ['q0', 'q25', 'q50', 'q75', 'q100', 'q125', 'q150', 'q175']
-input_alphabet = ['0', '1']
+input_alphabet = ['25', '50', '100']
 output_alphabet = ['0', '1']
 transitions =  {
                 'q0' : {'25' : ('q25', '0'), 
